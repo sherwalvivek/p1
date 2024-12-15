@@ -54,7 +54,7 @@ function App(props) {
   <button type="button" className="btn btn-success" onClick={btnHandleUp} >Convert UpperCase</button>
   <button type="button" className="btn btn-danger my-5 mx-2" onClick={btnHandleClear} >Clear</button>
 </div>
-<h2>{text.split(" ").length} words and {text.length} characters </h2>
+<h2>{text.split(" ").length-1} words and {text.length} characters </h2>
 
 </div>
  )
